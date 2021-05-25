@@ -22,6 +22,7 @@
  * 4.第三位为0，进了一位，进了一位也应该加入数组，因为999+1=1000，数组元素应该为4位，这是只需要迭代结束后，将进位的1插入到数组的首位即可
  * 就完成了这题。
 关键设置carry位，用来记录进位。
+```
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -36,3 +37,4 @@ public:
         return digits;
     }
 };
+```
